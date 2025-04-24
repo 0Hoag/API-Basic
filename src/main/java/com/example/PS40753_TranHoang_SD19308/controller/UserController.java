@@ -41,7 +41,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    ApiResponse<UserResponse> detail(@PathVariable("id") String id) {
+    ApiResponse<UserResponse> detail(@PathVariable("id") Integer id) {
         return ApiResponse.<UserResponse>builder()
                 .code(1000)
                 .result(userService.Detail(id))

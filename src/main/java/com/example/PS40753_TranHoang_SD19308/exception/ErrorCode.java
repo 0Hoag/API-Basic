@@ -23,6 +23,8 @@ public enum ErrorCode {
     ORDERS_NOT_EXISTED(1013, "ORDERS_NOT_EXISTED", HttpStatus.BAD_REQUEST),
     IMAGE_NOT_EXISTED(1014, "Image not existed", HttpStatus.BAD_REQUEST),
 
+    PRODUCT_NOT_EXISTED(1015, "Product not existed", HttpStatus.BAD_REQUEST),
+
     UPLOAD_FILE_FAIL(1015, "Upload file to fail!", HttpStatus.BAD_REQUEST),
     REMOVE_FILE_FAIL(1016, "Remove file to fail!", HttpStatus.BAD_REQUEST);
 

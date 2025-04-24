@@ -63,7 +63,7 @@ public class UserService {
     }
 
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-	public UserResponse Detail(String id) {
+	public UserResponse Detail(Integer id) {
         var user = userRepository.findById(id)
                 .orElseThrow(() -> new AppException(ErrorCode.USER_NOT_EXISTED));
 

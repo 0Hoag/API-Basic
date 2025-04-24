@@ -1,6 +1,5 @@
 package com.example.PS40753_TranHoang_SD19308.entity;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
